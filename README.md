@@ -22,7 +22,7 @@ so AI labs can bring real domain experts into the feedback loop.**
 ## ✨ Try it in 10 seconds (no keys, no setup)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/expert-sourcing-agent
+git clone https://github.com/sdwawa951753/expert-sourcing-agent
 cd expert-sourcing-agent
 python cli.py --demo
 ```
