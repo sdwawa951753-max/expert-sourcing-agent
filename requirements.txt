@@ -1,0 +1,10 @@
+# Core live-mode dependencies
+requests>=2.31
+
+# Optional — the pipeline degrades gracefully if these are absent:
+anthropic>=0.40        # LLM profiles + outreach (falls back to templates if no key)
+PyYAML>=6.0            # config.yaml (falls back to built-in defaults)
+python-dotenv>=1.0     # load API keys from .env
+rich>=13.0             # prettier CLI tables (plain-text fallback otherwise)
+
+# The --demo run needs NONE of the above beyond the standard library.

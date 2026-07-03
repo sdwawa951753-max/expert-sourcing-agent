@@ -1,0 +1,99 @@
+{
+  "_note": "SYNTHETIC demo data. These experts are fictional. Real runs operate on live public data via OpenAlex/Nobel APIs — see README.",
+  "field": "large language model alignment",
+  "experts": [
+    {
+      "expert": {
+        "name": "Ada Renwick",
+        "source": "openalex",
+        "orcid": "0000-0002-1825-0097",
+        "institution": "Institute for Cognitive Systems, ETH-style University",
+        "country": "CH",
+        "works_count": 214,
+        "cited_by_count": 48200,
+        "h_index": 71,
+        "top_concepts": ["Machine learning", "Reinforcement learning", "AI alignment", "Decision theory"],
+        "is_nobel_laureate": false,
+        "homepage": "https://cogsys.example.edu/~renwick"
+      },
+      "evidence": {
+        "talks": [
+          {"title": "Keynote: What Reward Models Get Wrong", "url": "https://example.com/talk-renwick", "source": "NeurIPS-style venue"}
+        ],
+        "news": [
+          {"title": "Renwick lab proposes new eval for reasoning faithfulness", "url": "https://example.com/news-renwick", "source": "trade press"}
+        ],
+        "notable_works": [
+          {"title": "Faithful Reasoning Under Reward Misspecification", "year": 2024, "cited_by": 640},
+          {"title": "A Taxonomy of Reward Hacking", "year": 2022, "cited_by": 1980}
+        ]
+      },
+      "contact": {
+        "email": "renwick@cogsys.example.edu",
+        "email_source": "https://cogsys.example.edu/~renwick",
+        "links": ["https://orcid.org/0000-0002-1825-0097", "https://cogsys.example.edu/~renwick"],
+        "best_channel": "email"
+      }
+    },
+    {
+      "expert": {
+        "name": "Tomas Iverson",
+        "source": "nobel",
+        "institution": "Northwave University",
+        "country": "US",
+        "works_count": 512,
+        "cited_by_count": 310000,
+        "h_index": 143,
+        "top_concepts": ["Physics", "Statistical mechanics", "Complex systems"],
+        "is_nobel_laureate": true,
+        "nobel_detail": "Nobel Prize in Physics, 2019"
+      },
+      "evidence": {
+        "talks": [
+          {"title": "Public Lecture: Order and Chaos", "url": "https://example.com/talk-iverson", "source": "university series"}
+        ],
+        "news": [],
+        "notable_works": [
+          {"title": "Emergent Order in Driven Systems", "year": 2016, "cited_by": 5200}
+        ]
+      },
+      "contact": {
+        "email": null,
+        "links": ["https://physics.example.edu/faculty/iverson"],
+        "best_channel": "homepage form"
+      }
+    },
+    {
+      "expert": {
+        "name": "Priya Anand",
+        "source": "openalex",
+        "orcid": "0000-0001-7742-1123",
+        "institution": "Riverbank College of Medicine",
+        "country": "GB",
+        "works_count": 168,
+        "cited_by_count": 22100,
+        "h_index": 58,
+        "top_concepts": ["Clinical medicine", "Diagnostics", "Medical reasoning", "Evidence-based medicine"],
+        "is_nobel_laureate": false,
+        "homepage": "https://riverbank.example.ac.uk/anand"
+      },
+      "evidence": {
+        "talks": [
+          {"title": "Interview: Where Medical AI Still Fails", "url": "https://example.com/talk-anand", "source": "podcast"}
+        ],
+        "news": [
+          {"title": "Anand on safe deployment of diagnostic models", "url": "https://example.com/news-anand", "source": "trade press"}
+        ],
+        "notable_works": [
+          {"title": "Calibration of Clinical Decision Support", "year": 2023, "cited_by": 410}
+        ]
+      },
+      "contact": {
+        "email": "p.anand@riverbank.example.ac.uk",
+        "email_source": "https://riverbank.example.ac.uk/anand",
+        "links": ["https://orcid.org/0000-0001-7742-1123"],
+        "best_channel": "email"
+      }
+    }
+  ]
+}

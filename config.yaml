@@ -1,0 +1,16 @@
+llm:
+  provider: anthropic
+  model: claude-sonnet-4-6
+
+search:
+  provider: tavily        # tavily | serper | none
+
+discovery:
+  default_limit: 10
+
+# Used to personalize outreach drafts. Edit these to yours.
+outreach:
+  sender_name: "[Your Name]"
+  sender_role: "Expert Network, Surge AI"
+  offer: "paid, flexible, and built around your schedule"
+  ask: "a 20-minute intro call"
